@@ -34,7 +34,7 @@ def train_model():
     print('Indexing word vectors.')
 
     embeddings_index = {}
-    f = file_io.FileIO('GoogleNews-vectors-negative300.txt', mode='r')
+    f = file_io.FileIO('./data/GoogleNews-vectors-negative300.txt', mode='r')
     for line in f:
         values = line.split()
         word = values[0]
