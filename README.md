@@ -10,6 +10,8 @@ This Project focuses on processing legal court decisions and is part of on-going
 - Connect to NYU access server first.
 - ```
   ssh -L 8000:localhost:3000 grice.cs.nyu.edu     # Now we go to the grice server.
+  screen                                          # You must execute this line first then change the location.
+  cd /misc/grice1/yijun/SCOTUS-Embedding
   jupyter notebook --ip='*' --no-browser          # Then we can access jupyter by typing 'localhost:8000' in laptop.
   ```
 
