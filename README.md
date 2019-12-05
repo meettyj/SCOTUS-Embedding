@@ -2,6 +2,22 @@
 
 This Project focuses on processing legal court decisions and is part of on-going research at New York University. This code is in development and is not ready for public release. Initially, we are using github as a version-control and development tool.
 
+## Description
+There are 4 task in general we need to do:
+  1. without citation
+  2. citation with two class (legislation and case)
+  3. citation with entry_type
+  4. citation with specific case (global_level_id in .NYU_IE4 file)
+  
+## TODO
+
+- Analyze the scotus online dataset. Try to download the label, and map them to local text.
+- Replace the citation in the document with new word/tag.
+- Task 2/3: Train a word embedding using new dictionary with legislation and case as new word (fastText)
+- Use embedding to train a classification model
+
+
+
 ## Work
 1. Incorporate paragraph citation information.
 
@@ -14,5 +30,6 @@ This Project focuses on processing legal court decisions and is part of on-going
   cd /misc/grice1/yijun/SCOTUS-Embedding
   jupyter notebook --ip='*' --no-browser          # Then we can access jupyter by typing 'localhost:8000' in laptop.
   ```
+
 
 
