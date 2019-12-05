@@ -4,10 +4,10 @@ This Project focuses on processing legal court decisions and is part of on-going
 
 ## Description
 There are 4 task in general we need to do:
-  1. without citation
-  2. citation with two class (legislation and case)
-  3. citation with entry_type
-  4. citation with specific case (global_level_id in .NYU_IE4 file)
+  1. embedding without citation
+  2. embedding with citation divided into 2 class (legislation and case)
+  3. embedding with citation divided by entry_type
+  4. embedding with citation divided into specific case (global_level_id in .NYU_IE4 file)
   
 ## TODO
 
