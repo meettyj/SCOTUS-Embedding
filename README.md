@@ -14,7 +14,7 @@ There are 4 task in general we need to do:
 - Analyze the scotus online dataset. Try to download the label, and map them to local text.
 - Replace the citation in the document with new word/tag, and build a new dictionary accordingly.
 - Task 2/3: Train a word embedding using new dictionary (fastText)
-- Use embedding to train classification model in different task
+- Use embedding to train a classification model in different task
 
 ## Dataset
 ```
