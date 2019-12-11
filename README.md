@@ -16,7 +16,10 @@ There are 4 task in general we need to do:
 - Task 2/3: Train a word embedding using new dictionary (fastText)
 - Use embedding to train classification model in different task
 
-
+## Dataset
+```
+NYU_IE4: /misc/grice1/meyers/appellate_courts/scotus_output
+```
 
 ## Work
 1. Incorporate paragraph citation information.
