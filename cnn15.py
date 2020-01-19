@@ -61,11 +61,11 @@ def train_model():
     labels_index = dict(zip(issue_codes, np.arange(len(issue_codes))))
 
     for record in sc.records():
-        if record['issue'] == None: # some cases have None as an issue
+        if record[1]['issue'] == None: # some cases have None as an issue
             labels.append(labels_index['-1'])
         else:
-            labels.append(labels_index[record['issue'][:-4]])
-        texts.append(record['text'])
+            labels.append(labels_index[record[1]['issue'][:-4]])
+        texts.append(record[0])
 
     print('Found %s texts.' % len(texts))
     print('Found %s labels.' % len(labels_index))
