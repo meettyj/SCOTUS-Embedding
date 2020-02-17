@@ -18,7 +18,9 @@ There are 4 task in general we need to do:
 
 ## Dataset
 ```
-NYU_IE4: /misc/grice1/meyers/appellate_courts/scotus_output
+Scotus (with NYU_IE4): /misc/grice1/meyers/appellate_courts/scotus_output
+
+8k Washington (with case10 and legislation10): /misc/grice1/meyers/appellate_courts/UWash_scotus_output
 
 citation dictionary: /home/meyers/Legal_Texts/scripts_2016/scotus_c_global_table_file.tsv
 ```
