@@ -8,7 +8,10 @@ There are 4 task in general we need to do:
   2. embedding with citation divided into 2 class (legislation and case)
   3. embedding with citation divided by entry_type
   4. embedding with citation divided into specific case (global_level_id in .NYU_IE4 file)
-  
+
+----
+Baseline paper: [A Comparative Study of Classifying Legal Documents with Neural Networks](https://www.researchgate.net/publication/327561122_A_Comparative_Study_of_Classifying_Legal_Documents_with_Neural_Networks)
+
 ## TODO
 
 - Analyze the scotus online dataset. Try to download the label, and map them to local text.
